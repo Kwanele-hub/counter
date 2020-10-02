@@ -7,7 +7,7 @@ export default function Count() {
         setCount(count + 1)
     }
     const reduce =()=>{
-        setCount(count - 3)
+        setCount(count - 1)
     }
 
     return (
