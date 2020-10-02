@@ -22,3 +22,30 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+p{
+  font-size: 80px;
+  text-shadow: rgb(17, 114, 77);
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+}
+
+body{
+  background:url("https://cdn.pixabay.com/photo/2015/06/12/18/44/fox-807315_960_720.png") no-repeat;
+  background-size: contain;
+}
+
+button{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #bf2bd3;
+  border: outset;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
