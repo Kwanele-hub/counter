@@ -14,7 +14,7 @@ export default function Count() {
         <div>
             <p>Counter</p>
             <p>{count}</p>
-            <button onClick={() => add()}>Increment</button>
+            <button variant="primary" size="lg" active onClick={() => add()}>Increment</button>
             <button onClick={() => reduce()}>Decrement</button>
         </div>
     )
